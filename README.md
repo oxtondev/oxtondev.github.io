@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# Gatsby Lander
 
-You can use the [editor on GitHub](https://github.com/oxtondev/site/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is an experimental starter built using [gatsby-theme-codebushi](https://github.com/codebushi/gatsby-theme-codebushi), a theme which uses [Tailwind CSS](https://tailwindcss.com/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and templates.
 
-### Markdown
+## Preview
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+https://gatsby-lander.surge.sh/
 
-```markdown
-Syntax highlighted code block
+## Installation
 
-# Header 1
-## Header 2
-### Header 3
+Install this starter (assuming Gatsby is installed) by running from your CLI:
+<br/>
+`gatsby new gatsby-starter-lander https://github.com/codebushi/gatsby-starter-lander`
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/oxtondev/site/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Run `gatsby develop` in the terminal to start the dev site.
