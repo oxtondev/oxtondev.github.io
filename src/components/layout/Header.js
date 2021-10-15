@@ -2,6 +2,7 @@ import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
+import { PopupButton } from '@typeform/embed-react'
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow" style={{ zIndex: 999, top: 0, width: '100%' }}>
@@ -27,7 +28,9 @@ const Header = () => (
         {/* </AnchorLink> */}
       </div>
       <div className="hidden md:block">
-      <a href="mailto:contato@oxton.com.br?Subject=Contato"><Button className="text-sm">Fale conosco</Button></a>
+      <PopupButton id="rSwChAXp" style={{ fontSize: 20 }} className="fale-conosco-button">
+        <Button className="text-sm">Fale conosco</Button>
+      </PopupButton>
       </div>
     </div>
   </header>

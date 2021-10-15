@@ -10,6 +10,7 @@
     "deploy": "gatsby build && gh-pages -d public"
   },
   "dependencies": {
+    "@typeform/embed-react": "^1.1.2",
     "gatsby": "^2.18.18",
     "gatsby-theme-codebushi": "1.0.0",
     "react": "^16.12.0",

@@ -13,6 +13,7 @@ import SvgCharts from '../svg/SvgCharts';
 import SimpleSlider from '../components/SimpleSlider';
 import GraphQLSVG from '../svg/tecnologies/graphql.svg';
 import SVGs from '../svg/tecnologies';
+import { PopupButton } from '@typeform/embed-react'
 
 export default () => (
   <Layout>
@@ -27,9 +28,9 @@ export default () => (
             tecnologias mais recentes e inovadoras.
           </p>
           <p className="mt-8 md:mt-12">
-            <a href="mailto:contato@oxton.com.br?Subject=Contato">
+            <PopupButton id="rSwChAXp" style={{ fontSize: 20 }} className="fale-conosco-button" autoClose={1}>
               <Button size="lg">Vamos lá!</Button>
-            </a>
+            </PopupButton>
           </p>
           <p className="mt-4 text-gray-600">Iremos te orientar nos próximos passos</p>
         </div>
